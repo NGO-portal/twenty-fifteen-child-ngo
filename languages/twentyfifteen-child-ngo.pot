@@ -1,0 +1,180 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Twenty Fifteen Child NGO\n"
+"POT-Creation-Date: 2016-09-24 08:24+0200\n"
+"PO-Revision-Date: 2016-09-18 18:30+0200\n"
+"Last-Translator: George Bredberg <george@bona.nu>\n"
+"Language-Team: George Bredberg <george@bona.nu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: archive-concert.php:22
+msgid "Concerts"
+msgstr ""
+
+#: archive-concert.php:53 archive-production.php:53 content-concert.php:35
+#: content-production.php:35
+msgid "Premiere"
+msgstr ""
+
+#: archive-concert.php:58 archive-production.php:58
+msgid "Ends"
+msgstr ""
+
+#: archive-concert.php:63 content-concert.php:49
+msgid "Number of gigs"
+msgstr ""
+
+#: archive-concert.php:66 archive-production.php:66 content-concert.php:56
+#: content-production.php:56
+msgid "Venues"
+msgstr ""
+
+#: archive-concert.php:75 archive-production.php:75 content-concert.php:87
+#: content-production.php:88 content.php:33
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: archive-concert.php:80 archive-production.php:80 content-concert.php:92
+#: content-production.php:93 content.php:38 taxonomy-concert_musicians.php:58
+#: taxonomy-concert_scenes.php:58 taxonomy-production_actors.php:58
+#: taxonomy-production_scenes.php:58
+msgid "Pages:"
+msgstr ""
+
+#: archive-concert.php:84 archive-concert.php:113 archive-production.php:84
+#: archive-production.php:113 content-concert.php:96 content-production.php:97
+#: content.php:42 taxonomy-concert_musicians.php:62
+#: taxonomy-concert_musicians.php:86 taxonomy-concert_scenes.php:62
+#: taxonomy-concert_scenes.php:86 taxonomy-production_actors.php:62
+#: taxonomy-production_actors.php:86 taxonomy-production_scenes.php:62
+#: taxonomy-production_scenes.php:86
+msgid "Page"
+msgstr ""
+
+#: archive-concert.php:99 archive-production.php:99 content-concert.php:111
+#: content-production.php:112 content.php:59 taxonomy-concert_musicians.php:77
+#: taxonomy-concert_scenes.php:77 taxonomy-production_actors.php:77
+#: taxonomy-production_scenes.php:77
+msgid "Edit"
+msgstr ""
+
+#: archive-concert.php:111 archive-production.php:111
+#: taxonomy-concert_musicians.php:84 taxonomy-concert_scenes.php:84
+#: taxonomy-production_actors.php:84 taxonomy-production_scenes.php:84
+msgid "Previous page"
+msgstr ""
+
+#: archive-concert.php:112 archive-production.php:112
+#: taxonomy-concert_musicians.php:85 taxonomy-concert_scenes.php:85
+#: taxonomy-production_actors.php:85 taxonomy-production_scenes.php:85
+msgid "Next page"
+msgstr ""
+
+#: archive-production.php:22
+msgid "Theater productions"
+msgstr ""
+
+#: archive-production.php:63 content-production.php:49
+msgid "Performances"
+msgstr ""
+
+#: content-concert.php:42
+msgid "Last gig"
+msgstr ""
+
+#: content-concert.php:53 content-production.php:53
+msgid "Category"
+msgstr ""
+
+#: content-concert.php:64
+msgid "Musicians"
+msgstr ""
+
+#: content-concert.php:70 content-production.php:70
+msgid "Other coworkers"
+msgstr ""
+
+#: content-concert.php:76 content-production.php:77
+msgid "Buy tickets here"
+msgstr ""
+
+#: content-production.php:42
+msgid "Last staging"
+msgstr ""
+
+#: content-production.php:64
+msgid "Actors"
+msgstr ""
+
+#: footer.php:28
+msgid "Copyright"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:49
+msgid "Menu and widgets"
+msgstr ""
+
+#: single-concert.php:33 single-production.php:33 single.php:33
+msgid "Next"
+msgstr ""
+
+#: single-concert.php:34 single-production.php:34 single.php:34
+msgid "Next post:"
+msgstr ""
+
+#: single-concert.php:36 single-production.php:36 single.php:36
+msgid "Previous"
+msgstr ""
+
+#: single-concert.php:37 single-production.php:37 single.php:37
+msgid "Previous post:"
+msgstr ""
+
+#: taxonomy-concert_musicians.php:49
+msgid "Plays in"
+msgstr ""
+
+#: taxonomy-concert_scenes.php:49 taxonomy-production_scenes.php:49
+msgid "Performed here"
+msgstr ""
+
+#: taxonomy-production_actors.php:49
+msgid "Performs in"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Fifteen Child NGO"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://datagaraget.se"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A WordPress child theme to Twenty-fifteen built for the NGO-portal Portal-"
+"sites."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "George Bredberg"
+msgstr ""
