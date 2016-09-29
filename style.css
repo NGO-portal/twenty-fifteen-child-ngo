@@ -16,3 +16,10 @@ GitHub Theme URI: https://github.com/NGO-portal/twenty-fifteen-child-ngo
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+/*For links in header*/
+li.top-navigation {
+	display: inline;
+	float: right;
+	padding: 8px;
+}

@@ -22,4 +22,11 @@ function be_child_ngo_load_theme_textdomain() {
   load_theme_textdomain( 'twenty-fifteen-child-ngo', get_stylesheet_directory() . '/languages' );
 }
 
+//Fix since network_home_url() does not work properly when using domain-mapping. Gives link back to network site. Used in header.
+function get_net_site_url(&$url) {
+	switch_to_blog(1);
+	$url = get_bloginfo( 'url' );
+	restore_current_blog();
+}
+
 ?>
