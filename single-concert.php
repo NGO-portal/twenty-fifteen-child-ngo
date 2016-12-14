@@ -6,7 +6,6 @@
  * @subpackage Twenty_Fifteen
  * @since Twenty Fifteen 1.0
  */
-// FIX: Not done
 get_header(); ?>
 
 	<div id="primary" class="content-area">

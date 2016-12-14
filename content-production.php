@@ -32,28 +32,28 @@
 						<?php $firstplaybexp = esc_html( get_post_meta( get_the_ID(), 'ngop_first_performance', true ) );?>
 						<?php if( ! empty($firstplaybexp)){?>
 							<div>
-								<b><?php _e( 'Premiere', 'beyond-expectations-child-ngo' ); ?>: </b><nobr><?php echo $firstplaybexp; ?></nobr>
+								<b><?php _e( 'Premiere', 'twenty-fifteen-child-ngo' ); ?>: </b><nobr><?php echo $firstplaybexp; ?></nobr>
 							</div>
 						<?php } ?>
 						
 						<?php $lastplaybexp = esc_html( get_post_meta( get_the_ID(), 'ngop_last_performance', true ) ); ?>
 						 <?php if(! empty($lastplaybexp)){?>
 							<div>
-								<b><?php _e( 'Last staging', 'beyond-expectations-child-ngo' ); ?>: </b><nobr><?php echo $lastplaybexp; ?></nobr>
+								<b><?php _e( 'Last staging', 'twenty-fifteen-child-ngo' ); ?>: </b><nobr><?php echo $lastplaybexp; ?></nobr>
 							</div>
 						<?php } ?>
 						
 						<?php $prodperformbex = esc_html( get_post_meta( get_the_ID(), 'ngop_performances', true ) );?>
 						<?php if(! empty($prodperformbex)){ ?>
 							<div>
-								<b><?php _e( 'Performances', 'beyond-expectations-child-ngo' ); ?>: </b><?php echo $prodperformbex; ?>
+								<b><?php _e( 'Performances', 'twenty-fifteen-child-ngo' ); ?>: </b><?php echo $prodperformbex; ?>
 							</div>
 						<?php } ?>
 						<div>
-							<?php the_terms($post->ID, 'production_category', '<b>' . __('Category', 'beyond-expectations-child-ngo') . ':</b><br/>', '<br/>'); ?>
+							<?php the_terms($post->ID, 'production_category', '<b>' . __('Category', 'twenty-fifteen-child-ngo') . ':</b><br/>', '<br/>'); ?>
 						</div>
 						<div>
-							<?php the_terms($post->ID, 'production_scenes', '<b>' . __('Venues', 'beyond-expectations-child-ngo') . ':</b><br/>', '<br/>'); ?>
+							<?php the_terms($post->ID, 'production_scenes', '<b>' . __('Venues', 'twenty-fifteen-child-ngo') . ':</b><br/>', '<br/>'); ?>
 						</div><br/>
 					</small>
 				</td>
@@ -61,20 +61,20 @@
 				<td style="width: 35%; vertical-align: top; border: none;">
 					<small>	
 						<div>
-							<?php the_terms($post->ID, 'production_actors', '<b>' . __('Actors', 'beyond-expectations-child-ngo') . ':</b> <br/>', '<br/>'); ?>
+							<?php the_terms($post->ID, 'production_actors', '<b>' . __('Actors', 'twenty-fifteen-child-ngo') . ':</b> <br/>', '<br/>'); ?>
 						</div>
 		
 						<?php $prodmetainfobex = esc_html( get_post_meta( get_the_ID(), 'ngop_meta_info', true ) ); ?>
 						<?php if(! empty($prodmetainfobex)){?>
 							<div>
-								<b><?php _e( 'Other coworkers', 'beyond-expectations-child-ngo' ); ?>:</b><br/><?php echo wpautop( $prodmetainfobex ); ?>
+								<b><?php _e( 'Other coworkers', 'twenty-fifteen-child-ngo' ); ?>:</b><br/><?php echo wpautop( $prodmetainfobex ); ?>
 							</div>
 						<?php } ?>
 		
 						<?php $prodticketbex = esc_html( get_post_meta( get_the_ID(), 'ngop_ticket_url', true ) );?>
 						<?php if(! empty($prodticketbex)){ ?>
 							<div style="background:lightgrey;">
-								<b><?php _e( 'Buy tickets here', 'beyond-expectations-child-ngo' ); ?>: </b><br/><a href="<?php echo $prodticketbex; ?>" target="_blank"><?php echo $prodticketbex;?></a>
+								<b><?php _e( 'Buy tickets here', 'twenty-fifteen-child-ngo' ); ?>: </b><br/><a href="<?php echo $prodticketbex; ?>" target="_blank"><?php echo $prodticketbex;?></a>
 							</div>
 						<?php	} ?>
 					</small>

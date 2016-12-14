@@ -32,28 +32,28 @@
 					<?php $firstplaybexpsconsing = esc_html( get_post_meta( get_the_ID(), 'ngoc_first_performance', true ) );?>
 					<?php if( ! empty($firstplaybexpsconsing)){?>
 						<div>
-							<b><?php _e( 'Premiere', 'beyond-expectations-child-ngo' ); ?>: </b><?php echo $firstplaybexpsconsing; ?>
+							<b><?php _e( 'Premiere', 'twenty-fifteen-child-ngo' ); ?>: </b><?php echo $firstplaybexpsconsing; ?>
 						</div>
 					<?php } ?>
 				
 					<?php $lastplaybexpsconsing = esc_html( get_post_meta( get_the_ID(), 'ngoc_last_performance', true ) ); ?>
 					<?php if(! empty($lastplaybexpsconsing)){?>
 						<div>
-							<b><?php _e( 'Last gig', 'beyond-expectations-child-ngo' ); ?>: </b><?php echo $lastplaybexpsconsing; ?>
+							<b><?php _e( 'Last gig', 'twenty-fifteen-child-ngo' ); ?>: </b><?php echo $lastplaybexpsconsing; ?>
 						</div>
 					<?php } ?>
 				
 					<?php $conperformbexsing = esc_html( get_post_meta( get_the_ID(), 'ngoc_performances', true ) );?>
 					<?php if(! empty($conperformbexsing)){ ?>
 						<div>
-							<b><?php _e( 'Number of gigs', 'beyond-expectations-child-ngo' ); ?>: </b><?php echo $conperformbexsing; ?>
+							<b><?php _e( 'Number of gigs', 'twenty-fifteen-child-ngo' ); ?>: </b><?php echo $conperformbexsing; ?>
 						</div>
 					<?php } ?>
 					<div>
-						<?php the_terms($post->ID, 'concert_category', '<b>' . __('Category', 'beyond-expectations-child-ngo') . ':</b><br/>', '<br/>'); ?>
+						<?php the_terms($post->ID, 'concert_category', '<b>' . __('Category', 'twenty-fifteen-child-ngo') . ':</b><br/>', '<br/>'); ?>
 					</div>
 					<div>
-						<?php the_terms($post->ID, 'concert_scenes', '<b>' . __('Venues', 'beyond-expectations-child-ngo') . ':</b><br/>', '<br/>'); ?>
+						<?php the_terms($post->ID, 'concert_scenes', '<b>' . __('Venues', 'twenty-fifteen-child-ngo') . ':</b><br/>', '<br/>'); ?>
 					</div>
 					</small>
 				</td>
@@ -61,19 +61,19 @@
 				<td style="width: 35%; vertical-align: top; border: none;">
 					<small>	
 					<div>
-						<?php the_terms($post->ID, 'concert_musicians', '<b>' . __('Musicians', 'beyond-expectations-child-ngo') . ':</b> <br/>', '<br/>'); ?>
+						<?php the_terms($post->ID, 'concert_musicians', '<b>' . __('Musicians', 'twenty-fifteen-child-ngo') . ':</b> <br/>', '<br/>'); ?>
 					</div>
 				
 					<?php $conmetainfobexsing = esc_html( get_post_meta( get_the_ID(), 'ngoc_meta_info', true ) ); ?>
 					<?php if(! empty($conmetainfobexsing)){?>
 						<div>
-							<b><?php _e('Other coworkers', 'beyond-expectations-child-ngo')?>: </b><?php echo wpautop( $conmetainfobexsing ); ?>
+							<b><?php _e('Other coworkers', 'twenty-fifteen-child-ngo')?>: </b><?php echo wpautop( $conmetainfobexsing ); ?>
 						</div>
 					<?php } ?>
 					<?php $conticketbexsing = esc_html( get_post_meta( get_the_ID(), 'ngoc_ticket_url', true ) );?>
 					<?php if(! empty($conticketbexsing)){ ?>
 						<div style="background:lightgrey;">
-							<b><?php _e('Buy tickets here', 'beyond-expectations-child-ngo')?>: </b><a href="<?php echo $conticketbexsing; ?>" target="_blank"><?php echo $conticketbexsing;?></a>
+							<b><?php _e('Buy tickets here', 'twenty-fifteen-child-ngo')?>: </b><a href="<?php echo $conticketbexsing; ?>" target="_blank"><?php echo $conticketbexsing;?></a>
 						</div>
 					<?php	} ?>
 					</small>
